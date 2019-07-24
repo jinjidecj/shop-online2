@@ -1,0 +1,21 @@
+.index-brands{
+    width: 290px;
+    height: 190px;
+}
+.brands-img{
+    width: 290px;
+    height: 190px;
+    text-align: center;
+    box-sizing:border-box;
+}
+.brands-b{
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.brands-img-inclass{
+    vertical-align: middle;
+    max-width: 280px;
+    max-height: 180px;
+}
+
