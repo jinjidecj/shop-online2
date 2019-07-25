@@ -18,3 +18,59 @@
     max-width: 280px;
     max-height: 180px;
 }
+.product-box{
+    margin:20px;
+}
+.product-description{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    margin:20px;
+    padding:5px;
+    position:relative;
+}
+.products-desc-fo{
+    text-align: left;
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+.products-desc-price{
+    text-align: left;
+    padding-top:5px;
+    padding-bottom: 5px;
+    position:absolute;
+    bottom:0px;
+}
+
+.inner_article {
+    left: 50%;
+    width: 1130px;
+    text-align: center;
+    display:flex;
+}
+.mod_slogan {
+     margin: 0 auto;
+    text-align: left;
+    padding:20px;
+ }
+
+.tit {
+    width: 50%;
+    float: left;
+    font-size: 44px;
+    line-height: 60px;
+}
+.sub_slogan {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 1;
+}
+.explain {
+    width: 50%;
+    float: right;
+    line-height: 28px;
+    font-size: 18px;
+    margin-left:0px;
+}
+

@@ -216,10 +216,26 @@ button.w3view-cart:focus{
 
 /*--banner--*/
 .banner-agile{
-	background:url(../images/banner2.jpg) no-repeat 0px 0px;
-	background-size:cover;
-	min-height:580px;
+    background:url(../images/banner2.jpg) no-repeat 0px 0px;
+    background-size:cover;
+    min-height:580px;
 }
+.banner-agile-brand-detail{
+     background:url(../images/bibigo_info4.png) no-repeat 0px 0px;
+     background-size:cover;
+     min-height:580px;
+ }
+.banner-agile-brand-detail-hetbahn{
+    background:url(../images/hetbahn_top.png) no-repeat 0px 0px;
+    background-size:cover;
+    min-height:580px;
+}
+.banner-agile-brand-detail-ottogi{
+     background:url(../images/ottogi.jpg) no-repeat 0px 0px;
+     background-size:cover;
+     min-height:580px;
+ }
+
 .sub-banner{
 	background:url(../images/banner2.jpg) no-repeat 0px 0px;
 	background-size:cover;
