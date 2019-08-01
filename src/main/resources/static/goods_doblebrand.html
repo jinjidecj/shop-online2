@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Fashion Club an Ecommerce Online Shopping Category  Flat Bootstrap responsive Website Template | Men :: w3layouts</title>
+<title>Fashion Club an Ecommerce Online Shopping Category  Flat Bootstrap responsive Website Template | Single :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Fashion Club Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -16,8 +16,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- css -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
-	<link rel="stylesheet" href="css/mystyle.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="all" />
+
+
 <!--// css -->
 <!-- font -->
 <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
@@ -25,6 +26,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //font -->
 <script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<!--flex slider-->
+<script defer src="js/jquery.flexslider.js"></script>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script>
+	// Can also be used with $(document).ready()
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: "thumbnails"
+	  });
+	});
+</script>
+<!--flex slider-->
+
+<script src="js/imagezoom.js"></script>
+<!-- //js --> 
+
 </head>
 <body>
 <div class="header-top-w3layouts">
@@ -166,179 +184,78 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 
 
-<div class="sub-banner my-banner3">
-</div>
-
-<div class="content">
-	<div class="container">
-		<div style="height:50px;text-align: center;padding:10px auto;">
-			<font size="6" >Browse By Category</font>
-		</div>
-		<div class="col-md-4 w3ls_dresses_grid_left">
-			<div class="w3ls_dresses_grid_left_grid">
-				<h3>Categories</h3>
-					<div class="w3ls_dresses_grid_left_grid_sub">
-						<div class="ecommerce_dres-type">
-							<ul>
-								<li> <a href="browsebycategory1.html"> <font size="4">Beverages</font> </a></li>
-								<li> <a href="browsebycategory.html"> <font size="4">Sauce</font></a> </li>
-								<li> <font size="4">Frozen</font> </li>
-								<li> <font size="4">Rice</font>  </li>
-								<li> <font size="4">Noodle</font>  </li>
-								<li> <font size="4">Snack</font>  </li>
-								<li> <font size="4">Cookies</font>  </li>
-								<li> <font size="4">Tea</font>  </li>
-								<li> <font size="4">Kitchenware</font>  </li>
-								<li> <font size="4">HouseHold</font>  </li>
-								<li> <font size="4">Beauty</font>  </li>
-								<li><font size="4">Fresh</font>  </li>
+<div class="products">	 
+		<div class="container">  
+			<div class="single-page">
+				<div class="single-page-row" id="detail-21">
+					<div class="col-md-6 single-top-left">	
+						<div class="flexslider">
+							<ul class="slides">
+								<li data-thumb="images/s1.jpg">
+									<div class="thumb-image detail_images"> <img src="images/dobleband.jpg" data-imagezoom="true" class="img-responsive" alt=""> </div>
+								</li>
 							</ul>
 						</div>
 					</div>
-			</div>
-			<!--<div class="w3ls_dresses_grid_left_grid">
-				<h3>Color</h3>
-				<div class="w3ls_dresses_grid_left_grid_sub">
-					<div class="ecommerce_color">
-						<ul>
-							<li><a href="#"><i></i> Red(5)</a></li>
-							<li><a href="#"><i></i> Brown(2)</a></li>
-							<li><a href="#"><i></i> Yellow(3)</a></li>
-							<li><a href="#"><i></i> Violet(6)</a></li>
-							<li><a href="#"><i></i> Orange(2)</a></li>
-							<li><a href="#"><i></i> Blue(1)</a></li>
-						</ul>
+					<div class="col-md-6 single-top-right">
+						<h3 class="item_name"> Doble Brand Korea Kitchen Sink Cutting Chopping Board</h3>
+						<p>for customers outside BC, please contact us before purchase online. </p>
+						<div class="single-rating">
+							<ul>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li><i class="fa fa-star-o" aria-hidden="true"></i></li>
+								<li class="rating">20 reviews</li>
+								<li><a href="#">Add your review</a></li>
+							</ul> 
+						</div>
+						<div class="single-price">
+							<ul>
+								<li>$54</li>  
+								<li><del>$60</del></li> 
+								<li><span class="w3off">10% OFF</span></li> 
+								<li>Ends on: Oct,15th</li>
+								<li><a href="#"><i class="fa fa-gift" aria-hidden="true"></i> Coupon</a></li>
+							</ul>	
+						</div> 
+						<p class="single-price-text">
+							Doble (Korea) - Kitchen Sink Cutting Chopping Board - Top Quality Slide style - Pink Color
+							by Doble (Korea)<br/>
+
+							Cutting Board Size : 390x 250 x 34 mm<br/>
+							Expandable Size : 630 mm<br/>
+							Material : PP, PE<br/>
+							Expandable cutting board includes a removable water draimed tray.<br/>
+							Fruits or vegetables can be stored using the tray.<br/>
+						</p>
+						<form action="#" method="post">
+							<input type="hidden" name="cmd" value="_cart" />
+							<input type="hidden" name="add" value="1" /> 
+							<input type="hidden" name="w3ls1_item" value="Handbag" /> 
+							<input type="hidden" name="amount" value="540.00" /> 
+							<button type="submit" class="w3ls-cart" ><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
+						</form>
+						<button class="w3ls-cart w3ls-cart-like"><i class="fa fa-heart-o" aria-hidden="true"></i> Add to Wishlist</button>
 					</div>
+				   <div class="clearfix"> </div>  
 				</div>
-			</div>
-			<div class="w3ls_dresses_grid_left_grid">
-				<h3>Size</h3>
-				<div class="w3ls_dresses_grid_left_grid_sub">
-					<div class="ecommerce_color ecommerce_size">
-						<ul>
-							<li><a href="#">Medium</a></li>
-							<li><a href="#">Large</a></li>
-							<li><a href="#">Extra Large</a></li>
-							<li><a href="#">Small</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="w3ls_dresses_grid_left_grid">
-				<div class="dresses_img_hover">
-					<img src="images/offer2.jpg" alt=" " class="img-responsive" />
-					<div class="dresses_img_hover_pos">
-						<h4>Upto<span>50%</span><i>Off</i></h4>
-					</div>
-				</div>
-			</div>-->
+			</div> 
+				
+		<div>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
+			<br/>
 		</div>
-
-		<div class="col-md-8 col-sm-8 women-dresses">
-			<div class="women-set1 product-box">
-				<div class="women-grids wp1 animated wow slideInUp" data-wow-delay=".5s" style="display:flex;">
-					<div>
-						<div class="product-img" style="width: 300px;">
-							<img src="images/products/brand2_good1.png" alt="" />
-							<div class="p-mask">
-								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart" />
-									<input type="hidden" name="add" value="1" />
-									<input type="hidden" name="w3ls1_item" value="Casual shirt" />
-									<input type="hidden" name="amount" value="50.00" />
-									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="product-description">
-						<font size="5" class="products-desc-fo">Jin Ramen</font>
-						<font size="4" class="products-desc-fo">This is description,This is description,This is description.</font>
-						<font size="4" class="products-desc-fo">This is description2,This is description2,This is description2.</font>
-						<font size="4" class="products-desc-fo">This is description3,This is description3,This is description3.</font>
-						<div class="products-desc-price">
-							<font size="5" style="color:red;" class="products-desc-fo">$4.00</font>
-						</div>
-					</div>
-
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="women-set1 product-box">
-				<div class="women-grids wp1 animated wow slideInUp" data-wow-delay=".5s" style="display:flex;">
-					<div>
-						<div class="product-img" style="width: 300px;">
-							<img src="images/products/brand2_good2.png" alt="" />
-							<div class="p-mask">
-								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart" />
-									<input type="hidden" name="add" value="1" />
-									<input type="hidden" name="w3ls1_item" value="Casual shirt" />
-									<input type="hidden" name="amount" value="50.00" />
-									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="product-description">
-						<font size="5" class="products-desc-fo">Jin Ramen</font>
-						<font size="4" class="products-desc-fo">For those who have no appetite, the right amount of apple juice can increase the gastrointestinal motility. Then you can effectively improve your appetite.</font>
-						<font size="4" class="products-desc-fo">This is description2,This is description2,This is description2.</font>
-						<font size="4" class="products-desc-fo">This is description3,This is description3.</font>
-						<div class="products-desc-price">
-							<font size="5" style="color:red;" class="products-desc-fo">$7.00</font>
-						</div>
-					</div>
-
-				</div>
-				<div class="clearfix"></div>
-
-			</div>
-			<div class="women-set1 product-box">
-				<div class="women-grids wp1 animated wow slideInUp" data-wow-delay=".5s" style="display:flex;">
-					<div>
-						<div class="product-img" style="width: 300px;">
-							<img src="images/products/brand2_good3.png" alt="" />
-							<div class="p-mask">
-								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart" />
-									<input type="hidden" name="add" value="1" />
-									<input type="hidden" name="w3ls1_item" value="Casual shirt" />
-									<input type="hidden" name="amount" value="50.00" />
-									<button type="submit" class="w3ls-cart pw3ls-cart"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add to cart</button>
-								</form>
-							</div>
-						</div>
-					</div>
-					<div class="product-description">
-						<font size="5" class="products-desc-fo">Jin Ramen</font>
-						<font size="4" class="products-desc-fo">This is description,This is description,This is description.</font>
-						<font size="4" class="products-desc-fo">This is description2,This is description2,This is description2.</font>
-						<font size="4" class="products-desc-fo">This is description3,This is description3,This is description3.</font>
-						<div class="products-desc-price">
-							<font size="5" style="color:red;" class="products-desc-fo">$3.00</font>
-						</div>
-					</div>
-
-				</div>
-				<div class="clearfix"></div>
-				<ul class="pagination pagination-sm">
-					<li class="disabled"><a href="#"><span aria-hidden="true">«</span></a></li>
-					<li class=""><a href="#" style="color:white;background: #00e58b;" >1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#"><span aria-hidden="true">»</span></a></li>
-				</ul>
-			</div>
 		</div>
-
 	</div>
-</div>
 
 <!-- //fotter -->
-<div class="newsletter" style="padding:20px 0;">
+<div class="newsletter" style="padding:20px 0;position: fixed;bottom: 0;width: 100%;">
 	<div class= "" style="width:1000px;margin:0 auto;">
 
 		<p class="copy-right" style="margin-top: 0px;margin-bottom: 10px;solid-color: black; font-size:18px;">
@@ -357,7 +274,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<p class="copy-right" style="margin-top: 10px;">Copyright © 2019 MobilTech International</p>
 	</div>
 </div>
-
 	<!-- cart-js -->
 	<script src="js/minicart.js"></script>
 	<script>
