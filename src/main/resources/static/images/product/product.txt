@@ -1,0 +1,18 @@
+Product Categories:
+
+1.Korean Frozen Products
+2.Korean Dry Products
+3.Korean Beverage
+4.Korean Ramen
+5.Korean Bowl Ramen
+6.Korean Noodles
+7.Korean Kimchi
+8.Korean Confectionary
+9.Japanese Cookies
+10.Japanese Confectionary
+11.Canada B.C. Snack
+12.Vietnamese Jasmine Rice
+13.Taiwan Frozen Foods
+14.Korean Kitchen Ware
+15.Korean Sheet Mask
+16.Body Care & Hair Care

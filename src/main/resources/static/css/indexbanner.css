@@ -1,0 +1,44 @@
+.m-view,.m-view .slide img{
+    position: relative;/*作为绝对定位的父元素*/
+    width: 800px;
+    height: 600px;
+}
+.m-view{
+    overflow: hidden;/*将超出该div的子元素隐藏*/
+}
+.m-view .slide{
+    position: absolute;
+    width: 8000px;
+    height: 600px;
+}
+.m-view .slide img{
+    margin-right: -5px;
+}
+.m-view .prev,.m-view .next{
+    position: absolute;
+    top: 40%;
+    font: 60px/60px Microsoft YaHei;
+    color: #00BFFF;
+}
+.m-view .prev{
+    left: 10px;
+}
+.m-view .next{
+    right: 10px;
+}
+.m-view .pointer{
+    position: absolute;
+    bottom: 40px;
+    left: 33%;
+}
+.m-view .pointer span{
+    display: inline-block;/*水平排列*/
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 10px;
+    background-color: #00FF00;
+}
+.m-view .pointer .on{/*点亮当前图片对应的圆圈*/
+    background-color: #1E90FF;
+}
